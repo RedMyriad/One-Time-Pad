@@ -12,7 +12,7 @@ namespace OTP
 
         //method to encrypt the message
         //will return int array list
-        public List<int> encryptMsg()
+        public List<int> getKey()
         {
 
         }
@@ -23,7 +23,7 @@ namespace OTP
         public String getEncrytedMsg()
         {
 
-
+            return encryptedMsg;
         }
 
     }
