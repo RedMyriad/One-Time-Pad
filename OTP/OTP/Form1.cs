@@ -31,6 +31,8 @@ namespace OTP
             unEncryptText = nonEncryptTextBox.Text; //assign text in nonEncrytTextBox to unEncryptText
             List<char> unEncrytedChar = unEncryptText.ToCharArray().ToList(); //assign unEncryptText to a character array
 
+
+
             /*
              * call method here for encytion from the encrytion class
              */
