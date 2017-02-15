@@ -19,7 +19,7 @@ namespace OTP
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+       
         }
 
         private void enctryptBtn_Click(object sender, EventArgs e)
@@ -35,6 +35,13 @@ namespace OTP
              */
 
             List<int> key = new List<int>(); //holds the incoming list of ints from the encryption method
+        }
+
+        private void nonEncryptTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //only allowing letters and white space
+            if (!char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar) && !char.IsWhiteSpace(e.KeyChar))
+                e.Handled = true;
         }
     }
 }

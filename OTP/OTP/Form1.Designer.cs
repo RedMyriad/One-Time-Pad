@@ -48,6 +48,7 @@
             this.nonEncryptTextBox.Name = "nonEncryptTextBox";
             this.nonEncryptTextBox.Size = new System.Drawing.Size(382, 103);
             this.nonEncryptTextBox.TabIndex = 3;
+            this.nonEncryptTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.nonEncryptTextBox_KeyPress);
             // 
             // encryptTextBox
             // 
@@ -115,7 +116,7 @@
             // fAQToolStripMenuItem
             // 
             this.fAQToolStripMenuItem.Name = "fAQToolStripMenuItem";
-            this.fAQToolStripMenuItem.Size = new System.Drawing.Size(97, 22);
+            this.fAQToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
             this.fAQToolStripMenuItem.Text = "FAQ";
             // 
             // Form1
