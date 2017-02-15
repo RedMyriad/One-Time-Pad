@@ -8,10 +8,11 @@ namespace OTP
 {
     class Encrypt
     {
+        string encryptedMsg;
 
         //method to encrypt the message
         //will return int array list
-        public List<int> encryptMsg(string phrase)
+        public List<int> encryptMsg()
         {
 
         }
@@ -19,8 +20,9 @@ namespace OTP
         //method to return encrypted message
 
         //or we can just return a string of all the characters already changed in a different method
-        public List<char> getEncrytedMsg()
+        public String getEncrytedMsg()
         {
+
 
         }
 
